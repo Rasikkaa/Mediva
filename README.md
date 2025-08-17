@@ -117,7 +117,3 @@ This project is developed for **academic purposes** only.
 
 ``` 
 
----
-
-👉 Do you want me to also **commit & push this README.md** directly into your repo (so you’ll see it on GitHub homepage)?
-```
