@@ -1,0 +1,136 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  .shop_rental-home {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  /* Sidebar Styles */
+  .shop_sidebar {
+    width: 250px;
+    background-color: #2c3e50;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ecf0f1;
+  }
+  
+  .shop_profile {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .shop_profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .shop_profile-name {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .shop_nav {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .shop_nav li {
+    margin-bottom: 15px;
+  }
+  
+  .shop_nav a {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: #ecf0f1;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .shop_nav a:hover {
+    background-color: #34495e;
+    transform: translateX(5px);
+  }
+  
+  .shop_nav a.active {
+    background-color: #1abc9c;
+  }
+  
+  .shop_nav a svg {
+    margin-right: 10px;
+  }
+  
+  /* Main Content Styles */
+  .shop_content {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .shop_content-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  .shop_dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .shop_card {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .shop_card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .shop_card h3 {
+    margin: 0 0 10px;
+    font-size: 1.2rem;
+    color: #2c3e50;
+  }
+  
+  .shop_card span {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .shop_card-blue {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    color: #fff;
+  }
+  
+  .shop_card-light-blue {
+    background: linear-gradient(135deg, #1abc9c, #16a085);
+    color: #fff;
+  }
+  
+  .shop_card-red {
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
+    color: #fff;
+  }
+  
+  .shop_card-orange {
+    background: linear-gradient(135deg, #e67e22, #d35400);
+    color: #fff;
+  }
