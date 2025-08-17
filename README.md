@@ -14,11 +14,6 @@ This project was developed as part of an academic submission to showcase practic
 
 ---
 
-## 🎥 Demo
-👉 [Watch Project Demo](./04e64ec1-c7c3-4391-8e96-2fed44bd3922.mp4)
-
----
-
 ## ✨ Features
 - 👨‍⚕️ **Doctor Module** – Appointment booking, scheduling, patient interaction  
 - 🧪 **Blood Test Module** – Pathology test requests, reporting  
@@ -95,7 +90,6 @@ Mediva/
 ## 🚀 Future Enhancements
 
 * 📱 Mobile App Integration (Flutter)
-* 
 ---
 
 ## 👨‍💻 Authors
